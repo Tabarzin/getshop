@@ -1,0 +1,21 @@
+.reports {
+  background: var(--gray-04);
+  display: flex;
+}
+
+.reports_title {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--black);
+}
+
+.list {
+  list-style-image: url("../../assets/icons/arrow.svg");
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 145%;
+  color: var(--black);
+}

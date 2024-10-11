@@ -6,6 +6,7 @@ import Hero from "../components/Hero/Hero";
 import TabsBlock from "@/components/TabsBlock/TabsBlock";
 import Balance from "../components/Balance/Balance";
 import Partners from "../components/Partners/Partners";
+import Reports from "../components/Reports/Reports";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           </div>
           <Balance />
           <Partners />
+          <Reports />
         </div>
       </main>
       <footer className={styles.footer}>footer</footer>
