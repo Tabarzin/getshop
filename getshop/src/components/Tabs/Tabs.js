@@ -28,13 +28,13 @@ const Tabs = () => {
       </div>
 
       <div className={styles.tab_content}>
-        {activeTab === "ott" && (
+        {activeTab === "operators" && (
           <p>
             Найдите идеальный баланс выручки и удовлетворённости пользователей с
             платформой рекламной монетизации
           </p>
         )}
-        {activeTab === "operators" && (
+        {activeTab === "ott" && (
           <p>
             Дополнительные возможности обогащения данных об аудитории и
             монетизации

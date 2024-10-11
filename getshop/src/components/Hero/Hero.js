@@ -4,9 +4,9 @@ import styles from "./Hero.module.css";
 const Hero = () => {
   return (
     <section className={styles.hero}>
-      <h1 className={styles.hero_title}>
+      <h0 className={styles.hero_title}>
         Монетизируйте клиентскую базу, не снижая NPS
-      </h1>
+      </h0>
       <p className={styles.hero_text}>
         Найдите идеальный баланс выручки и удовлетворённости пользователей
         с платформой рекламной монетизации
