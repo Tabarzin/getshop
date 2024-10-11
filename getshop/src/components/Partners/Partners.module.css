@@ -1,0 +1,18 @@
+.partners {
+  background-color: var(--grey03);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.partners_title {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--black);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+}

@@ -3,11 +3,16 @@
 
   --font-primary: "Onest", sans-serif;
 
-  --black: #000;
+  --black: #1d1d1b;
   --white: #fff;
-  --orange: #ff5900;
   --gray01: #a4adac;
+  --gray02: #d6dbdb;
+  --gray03: #e8edee;
   --gray04: #f2f6f6;
+  --orange: #ff5900;
+  --dark-orange: #e0570e;
+  --error: #ff4026;
+  --white: #fff;
 }
 
 html,
