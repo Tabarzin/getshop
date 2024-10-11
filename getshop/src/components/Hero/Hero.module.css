@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero_title {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  color: var(--black);
+}
+
+.hero_text {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--black);
+  width: 626px;
+}

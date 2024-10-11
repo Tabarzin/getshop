@@ -9,7 +9,7 @@
 }
 
 .logo_text {
-  font-family: "Onest", sans-serif;
+  font-family: var(--font-primary);
 
   font-weight: 900;
   font-size: 21px;

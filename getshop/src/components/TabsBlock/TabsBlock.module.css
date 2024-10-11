@@ -1,0 +1,12 @@
+.tabsblock {
+  display: flex;
+}
+
+.tabsblock_text {
+  width: 460px;
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--black);
+}

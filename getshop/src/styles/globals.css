@@ -1,5 +1,12 @@
 :root {
   --background: #fff;
+
+  --font-primary: "Onest", sans-serif;
+
+  --black: #000;
+  --white: #fff;
+  --orange: #ff5900;
+  --gray01: #a4adac;
 }
 
 html,
@@ -10,7 +17,7 @@ body {
 
 body {
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

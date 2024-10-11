@@ -1,0 +1,26 @@
+.button {
+  border-radius: 10px;
+  border: none;
+  padding: 12px 40px;
+
+  height: 48px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.orange {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.secondary {
+  background-color: var(--black);
+  color: var(--white);
+}

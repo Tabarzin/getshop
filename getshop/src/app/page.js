@@ -1,6 +1,9 @@
+"use client";
+
 import styles from "./page.module.css";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
+import TabsBlock from "@/components/TabsBlock/TabsBlock";
 
 export default function Home() {
   return (
@@ -11,6 +14,7 @@ export default function Home() {
             <Header />
 
             <Hero />
+            <TabsBlock />
           </div>
         </div>
       </main>
