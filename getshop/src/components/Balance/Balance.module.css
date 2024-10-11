@@ -1,6 +1,5 @@
 .balance {
   background-color: var(--gray04);
-  max-width: 1160px;
 }
 
 .balance_title {
@@ -14,6 +13,7 @@
 
 .balance_text_block {
   display: flex;
+  justify-content: space-between;
 }
 .text_column {
   display: flex;
@@ -34,4 +34,19 @@
   font-size: 18px;
   line-height: 122%;
   color: var(--black);
+}
+
+.orange_block {
+  border-radius: 18px;
+  width: 120px;
+  height: 120px;
+  background-color: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_wrapper {
+  display: flex;
+  align-items: center;
 }
