@@ -1,5 +1,7 @@
 .tabsblock {
   display: flex;
+  max-width: 1220px;
+  margin: 0 auto;
 }
 
 .tabsblock_text {

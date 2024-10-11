@@ -1,5 +1,9 @@
-.balance {
+.balance_wrapper {
   background-color: var(--gray04);
+}
+.balance {
+  max-width: 1220px;
+  margin: 0 auto;
 }
 
 .balance_title {

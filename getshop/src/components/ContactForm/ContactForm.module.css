@@ -1,5 +1,10 @@
-.form {
+.form_wrapper {
   background-color: var(--gray03);
+}
+
+.form {
+  max-width: 1220px;
+  margin: 0 auto;
 }
 
 .form_title {

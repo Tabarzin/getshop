@@ -12,21 +12,16 @@ import ContactForm from "@/components/ContactForm/ContactForm";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <main className={styles.main}>
-        <div className={styles.container}>
-          <div className={styles.wrapper}>
-            <Header />
+      <div className={styles.wrapper}>
+        <Header />
 
-            <Hero />
-            <TabsBlock />
-          </div>
-          <Balance />
-          <Partners />
-          <Reports />
-          <ContactForm />
-        </div>
-      </main>
-      <footer className={styles.footer}>footer</footer>
+        <Hero />
+        <TabsBlock />
+      </div>
+      <Balance />
+      <Partners />
+      <Reports />
+      <ContactForm />
     </div>
   );
 }

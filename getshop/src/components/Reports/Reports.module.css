@@ -1,6 +1,10 @@
+.reports_wrapper {
+  background: var(--gray04);
+}
 .reports {
-  background: var(--gray-04);
   display: flex;
+  max-width: 1220px;
+  margin: 0 auto;
 }
 
 .reports_title {
