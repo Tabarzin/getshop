@@ -7,6 +7,7 @@ import TabsBlock from "@/components/TabsBlock/TabsBlock";
 import Balance from "../components/Balance/Balance";
 import Partners from "../components/Partners/Partners";
 import Reports from "../components/Reports/Reports";
+import ContactForm from "@/components/ContactForm/ContactForm";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           <Balance />
           <Partners />
           <Reports />
+          <ContactForm />
         </div>
       </main>
       <footer className={styles.footer}>footer</footer>

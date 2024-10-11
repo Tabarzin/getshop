@@ -1,6 +1,7 @@
 import styles from "./Reports.module.css";
 import Image from "next/image";
 import laptop from "../../assets/images/laptop.png";
+import Button from "../Button/Button";
 
 const Reports = () => {
   return (
@@ -16,6 +17,7 @@ const Reports = () => {
             Ежемесячные автоматические отчёты для каждого правообладателя.
           </li>
         </ul>
+        <Button color="secondary">Заказать звонок</Button>
       </div>
       <Image src={laptop} alt="Laptop Logo" width={720} height={480} />
     </section>
