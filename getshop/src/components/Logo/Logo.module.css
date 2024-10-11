@@ -1,0 +1,21 @@
+.logo {
+  border-radius: 10px;
+  width: 161px;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_text {
+  font-family: "Onest", sans-serif;
+
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 171%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
