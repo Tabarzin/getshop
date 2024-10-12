@@ -9,11 +9,10 @@ const Partners = () => {
     <section className={styles.partners_wrapper}>
       <div className={styles.partners}>
         <h2 className={styles.partners_title}>Наши партнёры по монетизации</h2>
-        <div className={styles.logos}>
-          <Image src={clickwave} alt="Clickwave Logo" width={177} height={54} />
-          <Image src={zy} alt="Zypth Logo" width={102} height={70} />
-          <Image src={nova} alt="Novasphere Logo" width={191} height={60} />
-        </div>
+
+        <Image src={clickwave} alt="Clickwave Logo" width={177} height={54} />
+        <Image src={zy} alt="Zypth Logo" width={102} height={70} />
+        <Image src={nova} alt="Novasphere Logo" width={191} height={60} />
       </div>
     </section>
   );

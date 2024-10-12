@@ -1,10 +1,18 @@
 .form_wrapper {
   background-color: var(--gray03);
+
+  display: flex;
+  align-items: center;
+  height: 600px;
 }
 
 .form {
   max-width: 1220px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 330px;
 }
 
 .form_title {
@@ -17,6 +25,7 @@
 
 .form_input_block {
   display: flex;
+  gap: 30px;
 }
 
 .form_textarea {
@@ -30,11 +39,13 @@
   line-height: 122%;
   color: var(--black);
   background-color: var(--gray03);
+  padding: 20px;
 }
 
 .inputs {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .form_input {
@@ -58,4 +69,5 @@
   font-size: 14px;
   line-height: 143%;
   color: var(--black);
+  gap: 20px;
 }

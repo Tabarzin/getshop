@@ -4,6 +4,9 @@
   align-items: flex-start;
   max-width: 1220px;
   margin: 0 auto;
+  gap: 65px;
+  height: 440px;
+  margin-bottom: 200px;
 }
 
 .hero_title {

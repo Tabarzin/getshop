@@ -11,10 +11,10 @@
 .wrapper {
   background-image: url("../assets/images/bg.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #e7eded;
-  height: 1000px;
+  height: 1100px;
 }
 
 .container {

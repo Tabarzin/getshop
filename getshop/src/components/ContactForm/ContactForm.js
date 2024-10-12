@@ -1,4 +1,5 @@
 import styles from "./ContactForm.module.css";
+import Button from "../Button/Button";
 
 const ContactForm = () => {
   return (
@@ -27,9 +28,9 @@ const ContactForm = () => {
                 <a href="#" style={{ textDecoration: "underline" }}>
                   персональных данных
                 </a>
-                .
               </label>
             </div>
+            <Button color="secondary">Отправить</Button>
           </div>
         </div>
       </div>

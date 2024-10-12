@@ -1,5 +1,8 @@
 .tabs_container {
   width: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .tab_button {

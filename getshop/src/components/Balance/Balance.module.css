@@ -1,9 +1,16 @@
 .balance_wrapper {
   background-color: var(--gray04);
+  height: 600px;
+  display: flex;
+  align-items: center;
 }
 .balance {
   max-width: 1220px;
   margin: 0 auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .balance_title {
@@ -18,11 +25,14 @@
 .balance_text_block {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 .text_column {
   display: flex;
   flex-direction: column;
-  max-width: 300px;
+  width: 240px;
+  gap: 20px;
 }
 .text_column_title {
   font-family: var(--font-primary);

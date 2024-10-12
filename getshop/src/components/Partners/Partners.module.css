@@ -1,11 +1,13 @@
 .partners_wrapper {
   background-color: var(--gray03);
+  height: 280px;
+  display: flex;
 }
 .partners {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  max-width: 1220px;
+  width: 1220px;
   margin: 0 auto;
 }
 .partners_title {
