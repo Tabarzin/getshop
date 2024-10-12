@@ -32,8 +32,7 @@ const Balance = () => {
           </div>
           <div className={styles.image_wrapper}>
             <svg
-              width="227"
-              height="12"
+              className={styles.leftLine}
               viewBox="0 0 227 12"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -45,8 +44,7 @@ const Balance = () => {
             </svg>
             <div className={styles.orange_block}>
               <svg
-                width="80"
-                height="75"
+                className={styles.orange_block_inner}
                 viewBox="0 0 80 75"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -89,8 +87,7 @@ const Balance = () => {
               </svg>
             </div>
             <svg
-              width="230"
-              height="12"
+              className={styles.rightLine}
               viewBox="0 0 230 12"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
