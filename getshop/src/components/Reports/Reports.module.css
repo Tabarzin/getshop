@@ -3,6 +3,7 @@
   height: 650px;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 .reports {
   display: flex;
@@ -15,7 +16,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding-left: 20px;
+  width: 560px;
+  height: 440px;
 }
 
 .reports_title {
