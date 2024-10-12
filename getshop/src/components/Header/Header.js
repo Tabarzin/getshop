@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
 import Logo from "../Logo/Logo";
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
 const Header = () => {
   return (
@@ -15,6 +16,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <BurgerMenu />
     </header>
   );
 };

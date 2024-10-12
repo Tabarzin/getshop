@@ -1,0 +1,101 @@
+.navMenu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 40%;
+  height: 100vh;
+  background-color: var(--white);
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  z-index: 1000;
+  display: none;
+}
+
+.menuOpen {
+  right: 0;
+}
+
+.hamburgerIcon {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border: 2px solid var(--orange);
+  border-radius: 10px;
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  cursor: pointer;
+  z-index: 15;
+}
+
+.hamburgerIcon span {
+  width: 24px;
+  height: 2px;
+  background-color: var(--orange);
+  transition: all 0.3s;
+}
+
+.barOpen {
+  height: 2px;
+  background-color: var(--orange);
+}
+
+.barOpen:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.barOpen:nth-child(2) {
+  opacity: 0;
+}
+.barOpen:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.closeButton {
+  background: none;
+  border: 2px solid var(--orange);
+  border-radius: 10px;
+  width: 44px;
+  height: 44px;
+  font-size: 2rem;
+  color: var(--orange);
+  position: absolute;
+  top: 42px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.navMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navMenu li {
+  margin: 10px 0;
+}
+
+.navMenu a {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.04em;
+  color: var(--black);
+}
+
+@media (max-width: 768px) {
+  .hamburgerIcon {
+    display: flex;
+  }
+
+  .navMenu {
+    display: flex;
+  }
+}

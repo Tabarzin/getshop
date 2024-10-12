@@ -13,3 +13,14 @@
   line-height: 120%;
   color: var(--black);
 }
+
+@media (max-width: 768px) {
+  .tabsblock {
+    max-width: 690px;
+  }
+
+  .tabsblock_text {
+    font-size: 28px;
+    width: 290px;
+  }
+}

@@ -64,3 +64,9 @@
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .balance {
+    max-width: 690px;
+  }
+}

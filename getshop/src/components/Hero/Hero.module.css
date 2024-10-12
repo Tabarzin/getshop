@@ -26,3 +26,19 @@
   color: var(--black);
   width: 626px;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    max-width: 690px;
+  }
+  .hero_title {
+    font-size: 52px;
+    line-height: 110%;
+  }
+
+  .hero_text {
+    font-size: 14px;
+    line-height: 143%;
+    width: 385px;
+  }
+}
