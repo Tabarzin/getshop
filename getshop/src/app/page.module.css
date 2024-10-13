@@ -14,16 +14,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #e7eded;
-  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  padding: 5px;
 }
 
 .container {
   max-width: 1220px;
   margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .wrapper {
-    height: 900px;
-  }
 }

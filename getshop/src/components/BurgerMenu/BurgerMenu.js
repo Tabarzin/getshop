@@ -21,7 +21,7 @@ const BurgerMenu = () => {
   }, []);
 
   return (
-    <div>
+    <nav className={styles.burger_wrapper}>
       <button
         className={styles.hamburgerIcon}
         onClick={toggleMenu}
@@ -56,7 +56,7 @@ const BurgerMenu = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </nav>
   );
 };
 

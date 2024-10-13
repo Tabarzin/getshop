@@ -97,7 +97,14 @@
   display: none;
 }
 
+.burger_wrapper {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  .burger_wrapper {
+    display: block;
+  }
   .hamburgerIcon {
     display: flex;
   }

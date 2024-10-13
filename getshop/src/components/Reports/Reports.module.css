@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 5px;
 }
 .reports {
   display: flex;
@@ -15,7 +16,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  width: 560px;
+  max-width: 640px;
   height: 440px;
 }
 
@@ -45,8 +46,8 @@
 }
 
 .laptop {
-  width: 720px;
-  height: 480px;
+  width: 55%;
+  height: auto;
 }
 
 .laptop_320 {
@@ -62,7 +63,8 @@
     height: 500px;
   }
   .reports {
-    width: 690px;
+    max-width: 690px;
+    width: 100%;
   }
 
   .reports_title {

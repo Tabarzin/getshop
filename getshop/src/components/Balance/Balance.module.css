@@ -3,6 +3,7 @@
   height: 600px;
   display: flex;
   align-items: center;
+  padding: 5px;
 }
 .balance {
   max-width: 1220px;
@@ -24,14 +25,14 @@
 
 .balance_text_block {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 20px;
 }
 .text_column {
   display: flex;
   flex-direction: column;
-  width: 240px;
+  width: 20%;
   gap: 20px;
 }
 .text_column_title {
@@ -71,12 +72,12 @@
 }
 
 .leftLine {
-  width: 227px;
+  width: 40%;
   height: 12px;
 }
 
 .rightLine {
-  width: 230px;
+  width: 40%;
   height: 12px;
 }
 
@@ -100,7 +101,6 @@
   }
 
   .text_column {
-    width: 140px;
     gap: 15px;
   }
 
@@ -123,10 +123,16 @@
     width: 54px;
     height: 50px;
   }
+}
 
+@media (max-width: 460px) {
   .leftLine,
   .rightLine {
-    width: 90px;
+    display: none;
+  }
+
+  .text_column {
+    width: 30%;
   }
 }
 
@@ -163,7 +169,7 @@
   }
 
   .text_column {
-    width: 270px;
+    width: 100%;
     gap: 15px;
   }
 
