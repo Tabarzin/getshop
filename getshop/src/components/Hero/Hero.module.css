@@ -31,6 +31,7 @@
   .hero {
     max-width: 690px;
     height: 260px;
+    align-items: normal;
   }
   .hero_title {
     font-size: 52px;
