@@ -49,6 +49,9 @@
   height: 480px;
 }
 
+.laptop_320 {
+  display: none;
+}
 .arrowIcon {
   width: 24px;
   height: 24px;
@@ -83,5 +86,34 @@
   .arrowIcon {
     width: 18px;
     height: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .reports_wrapper {
+    height: 760px;
+  }
+  .reports {
+    width: 288px;
+    flex-direction: column;
+  }
+
+  .reports_title {
+    font-size: 24px;
+    width: 205px;
+  }
+
+  .reports_text_block {
+    width: 275px;
+    justify-content: space-evenly;
+    align-items: normal;
+  }
+
+  .laptop {
+    display: none;
+  }
+
+  .laptop_320 {
+    display: flex;
   }
 }

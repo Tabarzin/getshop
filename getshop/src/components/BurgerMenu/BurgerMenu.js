@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import styles from "./BurgerMenu.module.css";
+import Logo from "../Logo/Logo";
 
 const BurgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,6 +37,9 @@ const BurgerMenu = () => {
         ref={menuRef}
         className={`${styles.navMenu} ${isOpen ? styles.menuOpen : ""}`}
       >
+        <div className={styles.logo}>
+          <Logo />
+        </div>
         <button
           className={styles.closeButton}
           onClick={() => setIsOpen(false)}

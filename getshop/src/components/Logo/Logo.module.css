@@ -19,3 +19,13 @@
   color: black;
   text-transform: uppercase;
 }
+
+@media (max-width: 320px) {
+  .logo {
+    width: 115px;
+  }
+
+  .logo_text {
+    font-size: 15px;
+  }
+}

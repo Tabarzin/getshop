@@ -109,3 +109,29 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 320px) {
+  .form_wrapper {
+  }
+  .form {
+    max-width: 288px;
+  }
+
+  .form_title {
+    font-size: 24px;
+  }
+
+  .form_textarea {
+    width: 288px;
+    height: 223px;
+  }
+
+  .form_input {
+    width: 288px;
+    height: 40px;
+  }
+
+  .inputs {
+    gap: 20px;
+  }
+}

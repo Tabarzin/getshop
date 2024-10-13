@@ -1,6 +1,7 @@
 import styles from "./Reports.module.css";
 import Image from "next/image";
 import laptop from "../../assets/images/laptop.png";
+import laptop_320 from "../../assets/images/laptop_320.png";
 import Button from "../Button/Button";
 import arrow from "../../assets/icons/arrow.svg";
 
@@ -41,6 +42,11 @@ const Reports = () => {
           <Button color="secondary">Заказать звонок</Button>
         </div>
         <Image src={laptop} alt="Laptop Logo" className={styles.laptop} />
+        <Image
+          src={laptop_320}
+          alt="Laptop Small Logo"
+          className={styles.laptop_320}
+        />
       </div>
     </section>
   );

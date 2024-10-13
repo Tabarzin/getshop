@@ -48,3 +48,20 @@
     line-height: 143%;
   }
 }
+
+@media (max-width: 320px) {
+  .tabs_container {
+    width: 288px;
+  }
+  .tab_button {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px 19px;
+    width: 142px;
+    height: 25px;
+  }
+  .tab_content {
+    font-size: 14px;
+    line-height: 143%;
+  }
+}

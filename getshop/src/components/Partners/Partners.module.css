@@ -21,6 +21,9 @@
 .logos {
   display: flex;
   align-items: center;
+  width: 580px;
+
+  justify-content: space-between;
 }
 
 .clickwave {
@@ -53,6 +56,10 @@
     height: 37px;
   }
 
+  .logos {
+    width: 430px;
+  }
+
   .zy {
     width: 69px;
     height: 48px;
@@ -61,5 +68,40 @@
   .nova {
     width: 131px;
     height: 41px;
+  }
+}
+
+@media (max-width: 320px) {
+  .partners {
+    max-width: 288px;
+    flex-direction: column;
+  }
+
+  .partners_title {
+    font-size: 20px;
+    width: 175px;
+    align-self: baseline;
+  }
+
+  .logos {
+    width: 288px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .zy {
+    order: 3;
+    width: 84px;
+    height: 58px;
+  }
+
+  .clickwave {
+    width: 138px;
+    height: 42px;
+  }
+
+  .nova {
+    width: 149px;
+    height: 47px;
   }
 }

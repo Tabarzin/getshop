@@ -24,3 +24,16 @@
     width: 290px;
   }
 }
+
+@media (max-width: 320px) {
+  .tabsblock {
+    max-width: 288px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .tabsblock_text {
+    font-size: 24px;
+    width: 290px;
+  }
+}
