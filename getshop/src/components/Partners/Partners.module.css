@@ -73,6 +73,12 @@
   }
 }
 
+@media (max-width: 590px) {
+  .partners {
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 320px) {
   .partners {
     max-width: 288px;
