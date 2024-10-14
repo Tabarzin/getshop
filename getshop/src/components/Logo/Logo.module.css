@@ -2,24 +2,36 @@
   border-radius: 10px;
   width: 161px;
   height: 40px;
-  background-color: #fff;
+  background-color: var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
+.logo:hover {
+  background-color: var(--orange);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 .logo_text {
   font-family: var(--font-primary);
 
   font-weight: 900;
   font-size: 21px;
-  line-height: 171%;
+
   letter-spacing: 0.04em;
   text-align: center;
   color: black;
   text-transform: uppercase;
+  transition: color 0.3s ease;
 }
 
+.logo:hover .logo_text {
+  color: var(--white);
+}
 @media (max-width: 320px) {
   .logo {
     width: 115px;

@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   max-width: 1220px;
+  width: 100%;
   margin: 0 auto;
   gap: 65px;
 }
@@ -22,7 +23,8 @@
   font-size: 24px;
   line-height: 133%;
   color: var(--black);
-  width: 626px;
+  max-width: 626px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -39,7 +41,13 @@
   .hero_text {
     font-size: 14px;
     line-height: 143%;
-    width: 385px;
+    max-width: 385px;
+  }
+}
+
+@media (max-width: 403px) {
+  .hero_title {
+    font-size: 37px;
   }
 }
 

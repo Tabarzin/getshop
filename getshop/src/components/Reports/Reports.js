@@ -41,13 +41,13 @@ const Reports = () => {
           </ul>
           <Button color="secondary">Заказать звонок</Button>
         </div>
-        <Image src={laptop} alt="Laptop Logo" className={styles.laptop} />
-        <Image
-          src={laptop_320}
-          alt="Laptop Small Logo"
-          className={styles.laptop_320}
-        />
       </div>
+      <Image src={laptop} alt="Laptop Logo" className={styles.laptop} />
+      <Image
+        src={laptop_320}
+        alt="Laptop Small Logo"
+        className={styles.laptop_320}
+      />
     </section>
   );
 };
