@@ -88,12 +88,36 @@
   }
 }
 
-@media (max-width: 607px) {
+@media (max-width: 563px) {
+  .reports_wrapper {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .reports {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .reports_text_block {
+    width: 90%;
+    max-width: 335px;
+  }
+
+  .list {
+    font-size: 16px;
+  }
+
+  .laptop {
+    width: 80%;
+    align-self: flex-end;
+  }
 }
 
 @media (max-width: 320px) {
   .reports_wrapper {
-    height: 760px;
     flex-direction: column;
   }
 

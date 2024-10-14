@@ -13,9 +13,10 @@ const ContactForm = () => {
           ></textarea>
           <div className={styles.inputs}>
             <input
-              type="text"
+              type="email"
               className={styles.form_input}
               placeholder="Введите e-mail"
+              required
             />
             <div className={styles.form_checkbox}>
               <input type="checkbox" id="form_checkbox" />
