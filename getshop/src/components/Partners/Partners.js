@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./Partners.module.css";
-import clickwave from "../../assets/images/clickwave.png";
-import nova from "../../assets/images/novasphere.png";
-import zy from "../../assets/images/zypth.png";
+// import clickwave from "../../assets/images/clickwave.png";
+// import nova from "../../assets/images/novasphere.png";
+// import zy from "../../assets/images/zypth.png";
 
 const Partners = () => {
   return (
@@ -12,12 +12,26 @@ const Partners = () => {
 
         <div className={styles.logos}>
           <Image
-            src={clickwave}
+            src="/assets/images/clickwave.png"
             alt="Clickwave Logo"
             className={styles.clickwave}
+            width={177}
+            height={54}
           />
-          <Image src={zy} alt="Zypth Logo" className={styles.zy} />
-          <Image src={nova} alt="Novasphere Logo" className={styles.nova} />
+          <Image
+            src="/assets/images/zypth.png"
+            alt="Zypth Logo"
+            className={styles.zy}
+            width={102}
+            height={70}
+          />
+          <Image
+            src="/assets/images/novasphere.png"
+            alt="Novasphere Logo"
+            className={styles.nova}
+            width={191}
+            height={60}
+          />
         </div>
       </div>
     </section>

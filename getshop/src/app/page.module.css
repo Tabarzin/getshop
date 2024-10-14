@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-  background-image: url("../assets/images/bg.png");
+  background-image: url("../../public/assets/images/bg.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
