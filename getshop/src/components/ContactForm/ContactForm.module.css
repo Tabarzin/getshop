@@ -59,6 +59,18 @@
   line-height: 122%;
   color: var(--black);
   background-color: var(--gray03);
+  transition: border-color 0.3s;
+}
+
+.error {
+  border-color: red;
+}
+
+.error_message {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 10px;
 }
 
 .form_checkbox {
@@ -111,8 +123,6 @@
 }
 
 @media (max-width: 320px) {
-  .form_wrapper {
-  }
   .form {
     max-width: 288px;
   }
