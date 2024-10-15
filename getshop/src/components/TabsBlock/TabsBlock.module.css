@@ -51,6 +51,6 @@
 
   .tabsblock_text {
     font-size: 24px;
-    width: 290px;
+    max-width: 290px;
   }
 }
